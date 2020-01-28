@@ -11,3 +11,8 @@ For more informaiton, please check the assignment presentation.
 Deadline for completion of this project is January 29th, 2019. 
 You are expected to show all aspects of your work. This includes results of build process. 
 You are expected to use Github actively during this exercise.
+
+
+
+
+For my code I used while loops to loop through the arabic numbers depending on the inputted number and then return the roman numerals accordingly. 
