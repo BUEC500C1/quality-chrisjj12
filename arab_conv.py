@@ -1,9 +1,10 @@
-def conv(num2, output):
+def conv(num2):
 
     arab = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     rom = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
     i = 0
     j = 0
+    output = ''
     if num2 > 0:
         while num2 < arab[i]:
             i = i + 1
@@ -15,14 +16,15 @@ def conv(num2, output):
             j = 0
             num2 = num2 - (num3*arab[i])
             if num2 == 0:
-                print(output)
+                return output
                 break
             i = i + 1
             while num2 < arab[i]:
                 i = i + 1
 
 
-output = ''
+
+
 
 
 
