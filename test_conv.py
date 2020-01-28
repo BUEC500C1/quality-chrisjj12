@@ -9,4 +9,5 @@ def test_answer():
     assert arab_conv.conv(-3) == "Number is not valid"
     assert arab_conv.conv(5000) == "Number is not valid"
     assert arab_conv.conv(100) == "C"
+    assert arab_conv.conv("a") == "Number is not valid"
 
