@@ -7,7 +7,7 @@ def conv(num):
     output = ''
     
     if num > 4999 or num <= 0:
-        print('Number is not valid')
+        return('Number is not valid')
     elif  5000 > num > 0:
         while num < arab[i]:
             i = i + 1
