@@ -20,15 +20,10 @@ def conv(num2, output):
             i = i + 1
             while num2 < arab[i]:
                 i = i + 1
-    #return output
 
-
-num = input('Enter a number between 0 and 9999: ')
-num2 = int(num)
 
 output = ''
 
-conv(num2, output)
 
 
 
