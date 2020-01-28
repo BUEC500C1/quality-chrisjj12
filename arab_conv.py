@@ -6,7 +6,7 @@ def conv(num): #function
     j = 0 # initializing a counter
     output = '' # initializing the string
     
-    if num > 4999 or num <= 0 or not isinstance(num, int): #error checking
+    if not isinstance(num, int) or num > 4999 or num <= 0: #error checking
         return('Number is not valid')
     elif  5000 > num > 0: #valid input number range
         while num < arab[i]: #if an input number is smaller than a number in the array, it will go onto the next
